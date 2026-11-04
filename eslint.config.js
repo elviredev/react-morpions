@@ -35,6 +35,7 @@ export default [
       ...react.configs['jsx-runtime'].rules,
       ...reactHooks.configs.flat.recommended.rules,
       'no-unused-vars': 'warn',
+      'no-restricted-globals': ['error', 'name'],
       'react/prop-types': 'off',
     },
   },
